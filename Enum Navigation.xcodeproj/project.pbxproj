@@ -16,6 +16,7 @@
 		BB589A91290ED77B0048997F /* Topic3View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB589A90290ED77B0048997F /* Topic3View.swift */; };
 		BB589A93290ED7960048997F /* Topic4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB589A92290ED7960048997F /* Topic4View.swift */; };
 		BBBE6EE7290F107000EBB823 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BBBE6EE6290F107000EBB823 /* Launch Screen.storyboard */; };
+		E447A27429B0129F00D44987 /* Topic.swift in Sources */ = {isa = PBXBuildFile; fileRef = E447A27329B0129F00D44987 /* Topic.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BB589A90290ED77B0048997F /* Topic3View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic3View.swift; sourceTree = "<group>"; };
 		BB589A92290ED7960048997F /* Topic4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic4View.swift; sourceTree = "<group>"; };
 		BBBE6EE6290F107000EBB823 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		E447A27329B0129F00D44987 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 			children = (
 				BB589A7D290ED5010048997F /* AppEntry.swift */,
 				BB589A7F290ED5010048997F /* ContentView.swift */,
+				E447A27329B0129F00D44987 /* Topic.swift */,
 				BB589A8B290ED74B0048997F /* Topic Views */,
 				BB589A81290ED5020048997F /* Assets.xcassets */,
 				BBBE6EE6290F107000EBB823 /* Launch Screen.storyboard */,
@@ -167,6 +170,7 @@
 				BB589A8D290ED7650048997F /* Topic1View.swift in Sources */,
 				BB589A8F290ED7740048997F /* Topic2View.swift in Sources */,
 				BB589A91290ED77B0048997F /* Topic3View.swift in Sources */,
+				E447A27429B0129F00D44987 /* Topic.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

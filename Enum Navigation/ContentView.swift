@@ -9,15 +9,20 @@
 
 import SwiftUI
 
+// Film: https://www.youtube.com/watch?v=RPhBPhHw2gA&ab_channel=StewartLynch
+
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+        NavigationStack {
+            ForEach(Topic.allCases) { topic in
+                NavigationLink(topic.rawValue, value: topic)
+            }
+                .buttonStyle(.bordered)
+                .navigationDestination(for: Topic.self) { topic in
+                    topic
+                }
+                .navigationTitle("Enum Navigation")
         }
-        .padding()
     }
 }
 
